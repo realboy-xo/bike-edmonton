@@ -1,0 +1,344 @@
+/* ♥♥♥♥♥ PARTS ♥♥♥♥♥*/
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* GLOBAL styles*/
+body {
+	width: 100%;
+	background-color: rgb(4, 56, 124);
+}
+
+body p {
+	font-family: "Jost", sans-serif;
+	font-size: 12px;
+	font-style: normal;
+}
+
+body h2 {
+	font-family: "Jost", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+}
+
+body h3 {
+	font-family: "Jost", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color:rgb(252, 156, 68);
+	margin:0px;
+	padding:10px 0px;
+	text-align: center;
+}
+
+body h4 {
+	color: white;
+	font-family: "Jost", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	margin:0px;
+	padding:10px 0px;
+	text-align: center;
+	cursor: pointer;
+}
+
+body h4:hover {
+	color:rgb(252, 156, 68);
+	font-family: "Jost", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	margin:0px;
+	padding:10px 0px;
+	text-align: center;
+	cursor: pointer;
+}
+
+body button {
+	color: white; 
+	border-style: none; 
+	outline: none; 
+	background-color: rgb(4,56,124); 
+	font-size: 13px; 
+	padding: 15px 80px; 
+	margin:40px 0px; 
+	border-radius: 15px; 
+	font-family:'Krona One', sans-serif; 
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
+	letter-spacing: 2px; 
+	cursor: pointer;
+}
+
+body button:hover {
+	color: white; 
+	border-style: none; 
+	outline: none; 
+	background-color: rgb(20,76,144); 
+	font-size: 13px; 
+	padding: 15px 80px; 
+	margin:40px 0px; 
+	border-radius: 15px; 
+	font-family:'Krona One', sans-serif; 
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
+	letter-spacing: 2px; 
+	cursor: pointer;
+}
+
+body u {
+	cursor: pointer;
+}
+
+ul li {
+	list-style-type: none;
+	/*display: inline-block;*/
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* HEADER styles*/
+.header {
+	dipslay: flex;
+	background-color: rgb(4, 56, 124);
+	padding:20px 40px;
+}
+
+.header-mobile {
+	display: flex;
+	background-color: rgb(4, 56, 124);
+	padding:5px 5px;
+}
+
+.header h1 {
+	color: white;
+	font-family: "Krona One", sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	line-heigh: normal;
+	margin: 0px;
+	cursor: pointer;
+	transition: color 0.4s;
+}
+
+.header h1:hover {
+	color: rgb(252,156,68);
+	font-family: "Krona One", sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	line-heigh: normal;
+	margin: 0px;
+	cursor: pointer;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-family: "Jost", sans-serif;
+	font-size: 14px;
+	font-weight: Bold;
+	line-heigh: normal;
+	letter-spacing: 2px;
+	transition: color 0.4s;
+}
+
+.header a:hover {
+	text-decoration: none;
+    color: rgb(252,156,68);
+    font-family: "Jost", sans-serif;
+	font-size: 14px;
+	font-weight: Bold;
+	line-heigh: normal;
+	letter-spacing: 2px;
+}
+
+.header ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+	margin:20px 0px 0px 0px;
+}
+
+.underline {
+	border-bottom: 2px solid white;
+	padding-bottom:20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon-margin {
+	margin-left:20px;
+	width: 30px;
+	height: 30px;
+}
+
+.flex-row {
+	display:flex;
+	flex-direction: row;
+	
+}
+
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* BREAD styles*/
+.bread {
+	padding:20px 40px;
+	margin:0px;
+}
+
+.bread-mobile {
+	padding:0px;
+	margin-left:20px;
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* BACKGROUND styles*/
+.background-light {
+	background-color: rgb(217, 217, 217);
+}
+.background-medium {
+	background-color: rgb(201, 201, 201);
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* USEDPARTS styles*/
+.img-hero {
+	background-image: url(../images/parts2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: right;
+	height: 600px;
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* NEWPARTS styles*/
+.img-cat {
+	width: 22vw;
+	height: 22vw;	
+}
+
+.img-cat:hover {
+	width: 22vw;
+	height: 22vw;
+	cursor: pointer;	
+}
+
+.img-cat-mobile {
+	width: 100%;
+	height: auto;	
+}
+
+.img-cat-mobile:hover {
+	width: 100px;
+	height: auto;
+	cursor: pointer;	
+}
+
+.row-pc {
+	margin:0 40px 20px 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.row-mobile {
+	margin:0 0px 20px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.row-cat {
+	background-color: rgb(4, 56, 124);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cat {
+	width:24vw;
+	height:auto;
+	background-color: rgb(4, 56, 124);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.hover {
+}
+
+.hover:hover {
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* FOOTER styles*/
+.footer {
+	padding: 40px 40px;
+	background-color: rgb(4, 56, 124);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color:white;
+	font-family: "Jura", sans-serif;
+}
+
+.footer ul {
+	display: flex;
+	padding: 0px;
+	margin:20px 0px 0px 0px;
+	color:red;
+	justify-content: right;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-family: "Jura", sans-serif;
+	font-size: 12px;
+	font-weight: Bold;
+	line-heigh: normal;
+	letter-spacing: 2px;
+	transition: color 0.4s;
+	justify-content: right;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: rgb(252,156,68);
+    font-family: "Jura", sans-serif;
+	font-size: 12px;
+	font-weight: Bold;
+	line-heigh: normal;
+	letter-spacing: 2px;
+	transition: color 0.4s;
+	justify-content: right;
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+
+.hidden-desktop {
+    display: none;
+}
+/* -----MEDIA QUERIES----- */ 
+
+/* SMARTPHONE */
+
+@media screen and (max-width: 480px) {
+    .hidden-mobile {
+        display: none;
+    }
+
+    .hidden-desktop {
+        display: flex;
+        
+    }
+ 
+    .hidden-desktop img {
+        width: 120%;
+        height: 120%;
+    }
+
+}

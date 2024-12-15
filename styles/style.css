@@ -1,0 +1,315 @@
+/* ♥♥♥♥♥ STYLES (index) ♥♥♥♥♥*/
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* GLOBAL styles*/
+body {
+	width: 100%;
+	background-color: rgb(4, 56, 124);
+}
+
+ul li {
+	list-style-type: none;
+	/*display: inline-block;*/
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* HEADER styles*/
+.header {
+	dipslay: flex;
+	background-color: rgb(4, 56, 124);
+	padding:20px 40px;
+}
+
+.header-mobile {
+	display: flex;
+	background-color: rgb(4, 56, 124);
+	padding:5px 5px;
+}
+
+.header h1 {
+	color: white;
+	font-family: "Krona One", sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	line-heigh: normal;
+	margin: 0px;
+	cursor: pointer;
+	transition: color 0.4s;
+}
+
+.header h1:hover {
+	color: rgb(252,156,68);
+	font-family: "Krona One", sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	line-heigh: normal;
+	margin: 0px;
+	cursor: pointer;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-family: "Jost", sans-serif;
+	font-size: 14px;
+	font-weight: Bold;
+	line-heigh: normal;
+	letter-spacing: 2px;
+	transition: color 0.4s;
+}
+
+.header a:hover {
+	text-decoration: none;
+    color: rgb(252,156,68);
+    font-family: "Jost", sans-serif;
+	font-size: 14px;
+	font-weight: Bold;
+	line-heigh: normal;
+	letter-spacing: 2px;
+}
+
+.header ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+	margin:20px 0px 0px 0px;
+}
+
+
+.underline {
+	border-bottom: 2px solid white;
+	padding-bottom:20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon-margin {
+	margin-left:20px;
+	width: 30px;
+	height: 30px;
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* HERO styles*/
+.img-hero {
+	background-image: url(../images/mainhero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: right;
+	height: 100vh;
+}
+
+.img-hero h2 {
+	padding-top:70px;
+	color: black;
+	font-family: "Jockey One", sans-serif;
+	font-size: 60px;
+	font-style: normal;
+	line-heigh: normal;
+	margin: 0px;
+	letter-spacing: 3px;
+}
+
+.img-hero h3 {
+	color: black;
+	font-family: "Jockey One", sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	line-heigh: normal;
+	letter-spacing: 3px;
+	margin: 15px 0px;
+}
+
+.img-hero button {
+	color: white; 
+	border-style: none; 
+	outline: none; 
+	background-color: rgb(252,156,68); 
+	font-size: 20px; 
+	padding: 15px 80px; 
+	margin-top:20px; 
+	border-radius: 30px; 
+	font-family:'Krona One', sans-serif; 
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
+	letter-spacing: 2px; 
+	cursor: pointer;
+}
+
+.img-hero button:hover {
+	color: white; 
+	border-style: none; 
+	outline: none; 
+	background-color: rgb(252,175,95); 
+	font-size: 20px; 
+	padding: 15px 80px; 
+	margin-top:20px; 
+	border-radius: 30px; 
+	font-family:'Krona One', sans-serif; 
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
+	letter-spacing: 2px; 
+	cursor: pointer;
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* BANNER styles*/
+.banner {
+	margin:100px 0px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Jost", sans-serif;
+	font-size: 30px;
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* SHOP styles*/
+.shop {
+	display:flex;
+}
+
+.shop-image {
+	width: 50%
+}
+
+.shop-image-large {
+	width: 100%;
+	height: auto;
+}
+
+.shop-square {
+	width: 50%;
+	height:150px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 2px;
+	justify-content: center;
+	font-family: "Jura", sans-serif;
+	color: white;
+	transition: color 0.5s;
+	/*text-decoration: underline;*/
+}
+
+.shop-square h3:hover {
+	width: 50%;
+	height:150px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 2px;
+	justify-content: center;
+	font-family: "Jura", sans-serif;
+	color: rgb(252,156,68);
+	cursor: pointer;
+	transition: color 0.5s;
+	/*text-decoration: underline;*/
+}
+
+.shop-square-large {
+	width: 100%;
+	height:140px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 2px;
+	justify-content: center;
+	font-family: "Jura", sans-serif;
+	color: black;
+	transition: color 0.5s;
+	/*text-decoration: underline;*/
+}
+
+.shop-square-large h3:hover {
+	width: 100%;
+	height:140px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 2px;
+	justify-content: center;
+	font-family: "Jura", sans-serif;
+	color: rgb(252,156,68);
+	cursor: pointer;
+	transition: color 0.5s;
+	/*text-decoration: underline;*/
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* FOOTER styles*/
+
+.footer {
+	padding: 40px 40px;
+	background-color: rgb(4, 56, 124);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color:white;
+	font-family: "Jura", sans-serif;
+}
+
+.footer ul {
+	display: flex;
+	padding: 0px;
+	margin:20px 0px 0px 0px;
+	color:red;
+	justify-content: right;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-family: "Jura", sans-serif;
+	font-size: 12px;
+	font-weight: Bold;
+	line-heigh: normal;
+	letter-spacing: 2px;
+	transition: color 0.4s;
+	justify-content: right;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: rgb(252,156,68);
+    font-family: "Jura", sans-serif;
+	font-size: 12px;
+	font-weight: Bold;
+	line-heigh: normal;
+	letter-spacing: 2px;
+	transition: color 0.4s;
+	justify-content: right;
+}
+
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+.hidden-desktop {
+    display: none;
+}
+/* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
+/* -----MEDIA QUERIES----- */ 
+
+/* SMARTPHONE */
+
+@media screen and (max-width: 480px) {
+    .hidden-mobile {
+        display: none;
+    }
+
+    .hidden-desktop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hidden-desktop2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hidden-desktop img {
+        width: 120%;
+        height: 120%;
+    }
+
+}
