@@ -40,8 +40,6 @@ body h4 {
 	cursor: pointer;
 }
 
-
-
 body button {
 	color: white; 
 	border-style: none; 
@@ -97,7 +95,6 @@ ul li {
 	list-style-type: none;
 	/*display: inline-block;*/
 }
-
 
 /* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
 /* HEADER styles*/
@@ -199,9 +196,6 @@ ul li {
 	background-color: rgb(185, 185, 185);
 }
 
-
-
-
 /* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
 /* BIKES styles 1*/
 .two-columns {
@@ -219,8 +213,6 @@ ul li {
 	margin: 0 20px 20px 20px;
 	text-align: left;
 }
-
-
 
 /* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
 /* NEWPARTS styles 2*/
@@ -300,12 +292,6 @@ ul li {
 	align-items: center;
 	justify-content: center;
 }
-
-
-
-
-
-
 
 /* ♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥*/
 /* FOOTER styles*/
